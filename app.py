@@ -9,7 +9,7 @@ import time
 
 class FinancialDataAgent:
     def __init__(self):
-        self.NOVITA_AI_API_KEY = "sk_YULlLVl4AFU7E2RfzoU5q2IUDRj-OEI61NURh5vmzJM"
+        self.NOVITA_AI_API_KEY = "sk_............" "Novita Al Api Key"
         self.client = OpenAI(
             base_url="https://api.novita.ai/v3/openai",
             api_key=self.NOVITA_AI_API_KEY,
